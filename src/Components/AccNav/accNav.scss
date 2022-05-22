@@ -1,0 +1,32 @@
+.menu-list {
+    display: flex;
+    align-items: center;
+    width: 834px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 39px;
+    padding: 20px 0;
+}
+
+.menu-list__link {
+    margin-right: 69px;
+    text-decoration: none;
+    font-family: 'Mulish',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: var(--black-color);
+}
+
+.menu-list__link--active {
+    color: #FF0000;
+    border-bottom: 3px solid #FF0000;
+}
+
+.menu-list__link--btn {
+    border: none;
+    background-color: var(--bg-color);
+    margin-right: 0;
+}

@@ -1,0 +1,76 @@
+.subscription {
+    position: relative;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+}
+
+.subscription__title {
+    margin-bottom: 30px;
+    font-family: 'Mulish',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: var(--black-color);
+}
+
+.subscription__list {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    margin-bottom: 81px;
+    padding: 0;
+    list-style-type: none;
+}
+
+.subscription__item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 23px;
+}
+
+.subscription__link {
+    margin-left: 10px;
+    font-family: 'Mulish',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--user-color);
+    text-decoration: none;
+}
+
+.active{
+    color: #ff0000;
+}
+
+.darkmode {
+    position: absolute;
+    top: 360px;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+    font-family: "Mulish", sans-serif;
+    font-weight: 700;
+    background-color: transparent;
+    border: none;
+    color: var(--black-color);
+    
+    &::before{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        background-image: url(../../Assets//Images/mode.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+
+
+
