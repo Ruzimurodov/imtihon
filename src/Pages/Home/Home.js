@@ -136,7 +136,8 @@ const Home = () => {
 							src={drinkImg}
 							alt='user image'
 						/>
-						<h2 className='home-footer__header-title'>Food & Drink</h2>
+						<h2 className='home-footer__header-title'><Link className='home-footer__header-link' to='/fooddrink'>
+						Food & Drink</Link></h2>
 						<span className='home-footer__header-text'>
 							Recommended channel for you
 						</span>

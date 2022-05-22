@@ -1,5 +1,4 @@
 import React, { useEffect, useRef, useState } from 'react';
-import axios from 'axios';
 import { Link, useParams } from 'react-router-dom';
 import useData from '../../Hooks/useData';
 import videogroup from '../../Assets/Images/videogroup.png';
